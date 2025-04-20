@@ -1,0 +1,9 @@
+git clone --recurse-submodules https://github.com/ericjuma/ongoma.git
+
+Ubuntu build:
+
+sudo apt install libasound2-dev libjack-jackd2-dev libx11-dev cmake g++
+
+cmake -B build -S .
+cmake --build build
+./build/OngomaJUCE

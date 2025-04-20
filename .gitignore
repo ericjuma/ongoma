@@ -1,0 +1,57 @@
+# macOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Build artifacts
+build/
+Builds/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+cmake_install.cmake
+
+# JUCE build artifacts
+JUCE_artefacts/
+*.jucer
+
+# JUCE auto-gen
+OngomaJUCE_artefacts/
+JuceLibraryCode/
+*.vcxproj*
+*.xcodeproj
+*.sln
+*.suo
+*.opensdf
+*.user
+*.obj
+*.exe
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.log
+*.ilk
+*.pch
+*.tlog
+*.lastbuildstate
+
+# Editors
+.idea/
+.vscode/
+*.code-workspace
+
+# Swap files and backups
+*~
+*.swp
+*.swo
+
+# Misc
+*.bak
+*.tmp
+*.old
+*.orig

@@ -1,0 +1,6 @@
+[submodule "src/JUCE"]
+	path = src/JUCE
+	url = https://github.com/juce-framework/JUCE.git
+[submodule "src/tracktion_engine"]
+	path = src/tracktion_engine
+	url = https://github.com/Tracktion/tracktion_engine.git
