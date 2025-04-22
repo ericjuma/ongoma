@@ -37,6 +37,8 @@ target_sources(OngomaJUCE PRIVATE
     Source/Main.cpp
     Source/MainComponent.cpp
     Source/MainComponent.h
+    Source/PianoRollComponent.h
+    Source/PianoRollComponent.cpp
 )
 
 # JUCE libs
